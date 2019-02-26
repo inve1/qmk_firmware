@@ -32,6 +32,7 @@
 #define QUARTER_NOTE(note)             MUSICAL_NOTE(note, 16)
 #define EIGHTH_NOTE(note)              MUSICAL_NOTE(note,  8)
 #define SIXTEENTH_NOTE(note)           MUSICAL_NOTE(note,  4)
+#define SINGLE_NOTE(note)           MUSICAL_NOTE(note,  1)
 
 #define BREVE_DOT_NOTE(note)           MUSICAL_NOTE(note, 128+64)
 #define WHOLE_DOT_NOTE(note)           MUSICAL_NOTE(note, 64+32)
